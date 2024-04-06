@@ -23,7 +23,7 @@ export default function Form() {
         let [text2,setText2] = useState("abc.......2");
         let handleOnChange2 =event =>{
                 console.log(event.target.value);
-                setText3(event.target.value);
+                setText2(event.target.value);
         }
 
         
